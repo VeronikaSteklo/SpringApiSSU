@@ -1,0 +1,96 @@
+City,Country,Latitude,Longitude,Timezone
+Moscow,Russia,55.7558,37.6176,Europe/Moscow
+New York,USA,40.7128,-74.0060,America/New_York
+Tokyo,Japan,35.6895,139.6917,Asia/Tokyo
+Paris,France,48.8566,2.3522,Europe/Paris
+Sydney,Australia,-33.8688,151.2093,Australia/Sydney
+Saratov,Russia,51.5336,46.0343,Europe/Samara
+London,UK,51.5074,-0.1278,Europe/London
+Beijing,China,39.9042,116.4074,Asia/Shanghai
+Los Angeles,USA,34.0522,-118.2437,America/Los_Angeles
+Berlin,Germany,52.5200,13.4050,Europe/Berlin
+Rio de Janeiro,Brazil,-22.9068,-43.1729,America/Sao_Paulo
+Cape Town,South Africa,-33.9249,18.4241,Africa/Johannesburg
+Mumbai,India,19.0760,72.8777,Asia/Kolkata
+Mexico City,Mexico,19.4326,-99.1332,America/Mexico_City
+Cairo,Egypt,30.0444,31.2357,Africa/Cairo
+Buenos Aires,Argentina,-34.6037,-58.3816,America/Argentina/Buenos_Aires
+Istanbul,Turkey,41.0082,28.9784,Europe/Istanbul
+Toronto,Canada,43.6511,-79.3470,America/Toronto
+Seoul,South Korea,37.5665,126.9780,Asia/Seoul
+Dubai,UAE,25.2048,55.2708,Asia/Dubai
+Bangkok,Thailand,13.7563,100.5018,Asia/Bangkok
+Lagos,Nigeria,6.5244,3.3792,Africa/Lagos
+Madrid,Spain,40.4168,-3.7038,Europe/Madrid
+Jakarta,Indonesia,-6.2088,106.8456,Asia/Jakarta
+Singapore,Singapore,1.3521,103.8198,Asia/Singapore
+Chicago,USA,41.8781,-87.6298,America/Chicago
+Hong Kong,Hong Kong,22.3193,114.1694,Asia/Hong_Kong
+Lima,Peru,-12.0464,-77.0428,America/Lima
+Athens,Greece,37.9838,23.7275,Europe/Athens
+Kuala Lumpur,Malaysia,3.1390,101.6869,Asia/Kuala_Lumpur
+Nairobi,Kenya,-1.2921,36.8219,Africa/Nairobi
+Vancouver,Canada,49.2827,-123.1207,America/Vancouver
+Rome,Italy,41.9028,12.4964,Europe/Rome
+Melbourne,Australia,-37.8136,144.9631,Australia/Melbourne
+Montreal,Canada,45.5017,-73.5673,America/Toronto
+Santiago,Chile,-33.4489,-70.6693,America/Santiago
+Helsinki,Finland,60.1695,24.9354,Europe/Helsinki
+Warsaw,Poland,52.2297,21.0122,Europe/Warsaw
+Bogota,Colombia,4.7110,-74.0721,America/Bogota
+Budapest,Hungary,47.4979,19.0402,Europe/Budapest
+Doha,Qatar,25.2854,51.5310,Asia/Qatar
+Dublin,Ireland,53.3498,-6.2603,Europe/Dublin
+Prague,Czech Republic,50.0755,14.4378,Europe/Prague
+Auckland,New Zealand,-36.8485,174.7633,Pacific/Auckland
+Brussels,Belgium,50.8503,4.3517,Europe/Brussels
+Caracas,Venezuela,10.4806,-66.9036,America/Caracas
+Stockholm,Sweden,59.3293,18.0686,Europe/Stockholm
+Lisbon,Portugal,38.7223,-9.1393,Europe/Lisbon
+Oslo,Norway,59.9139,10.7522,Europe/Oslo
+Johannesburg,South Africa,-26.2041,28.0473,Africa/Johannesburg
+Zurich,Switzerland,47.3769,8.5417,Europe/Zurich
+New Delhi,India,28.6139,77.2090,Asia/Kolkata
+Manila,Philippines,14.5995,120.9842,Asia/Manila
+Algiers,Algeria,36.7538,3.0588,Africa/Algiers
+Baghdad,Iraq,33.3152,44.3661,Asia/Baghdad
+Addis Ababa,Ethiopia,9.03,38.74,Africa/Addis_Ababa
+Kiev,Ukraine,50.4501,30.5234,Europe/Kiev
+Hanoi,Vietnam,21.0285,105.8542,Asia/Ho_Chi_Minh
+Tel Aviv,Israel,32.0853,34.7818,Asia/Jerusalem
+Casablanca,Morocco,33.5731,-7.5898,Africa/Casablanca
+Montpellier,France,43.6119,3.8772,Europe/Paris
+Cologne,Germany,50.9375,6.9603,Europe/Berlin
+Valencia,Spain,39.4699,-0.3763,Europe/Madrid
+Birmingham,UK,52.4862,-1.8904,Europe/London
+Glasgow,UK,55.8642,-4.2518,Europe/London
+Edinburgh,UK,55.9533,-3.1883,Europe/London
+Bristol,UK,51.4545,-2.5879,Europe/London
+Leeds,UK,53.8008,-1.5491,Europe/London
+Liverpool,UK,53.4084,-2.9916,Europe/London
+Manchester,UK,53.4808,-2.2426,Europe/London
+Sheffield,UK,53.3811,-1.4701,Europe/London
+Belfast,UK,54.5973,-5.9301,Europe/London
+Nottingham,UK,52.9548,-1.1581,Europe/London
+Southampton,UK,50.9097,-1.4044,Europe/London
+Portsmouth,UK,50.8198,-1.0880,Europe/London
+Brighton,UK,50.8225,-0.1372,Europe/London
+Norwich,UK,52.6309,1.2974,Europe/London
+Cambridge,UK,52.2053,0.1218,Europe/London
+Oxford,UK,51.7520,-1.2577,Europe/London
+Canterbury,UK,51.2802,1.0789,Europe/London
+Winchester,UK,51.0605,-1.3131,Europe/London
+Exeter,UK,50.7184,-3.5339,Europe/London
+Plymouth,UK,50.3755,-4.1427,Europe/London
+Derby,UK,52.9225,-1.4746,Europe/London
+Coventry,UK,52.4068,-1.5197,Europe/London
+Stoke-on-Trent,UK,53.0027,-2.1794,Europe/London
+Sunderland,UK,54.9069,-1.3838,Europe/London
+Wolverhampton,UK,52.5862,-2.1286,Europe/London
+Reading,UK,51.4543,-0.9781,Europe/London
+Luton,UK,51.8787,-0.4200,Europe/London
+Milton Keynes,UK,52.0406,-0.7594,Europe/London
+Swindon,UK,51.5682,-1.7720,Europe/London
+Huddersfield,UK,53.6458,-1.7854,Europe/London
+Blackpool,UK,53.8175,-3.0350,Europe/London
+Bolton,UK,53.5781,-2.4290,Europe/London
