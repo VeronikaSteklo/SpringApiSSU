@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Просто бобик 🐶</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+    <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+          background: linear-gradient(to right, #d7f3ff, #f0fbff);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 20px;
+          color: #0d6efd;
+          text-align: center;
+        }
+
+        h1 {
+          font-weight: 700;
+          margin-bottom: 25px;
+          font-size: 2.5rem;
+        }
+
+        video {
+          width: 100%;
+          max-width: 600px;
+          border-radius: 15px;
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+          transition: transform 0.3s ease;
+          cursor: pointer;
+        }
+
+        video:hover {
+          transform: scale(1.05);
+        }
+
+        @keyframes bobik-spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(1440deg); }
+        }
+
+        .spin-on-load {
+          animation: bobik-spin 1.5s ease-in-out;
+        }
+
+        a.btn-home {
+          margin-top: 30px;
+          padding: 10px 30px;
+          font-weight: 500;
+          color: #fff;
+          background-color: #0d6efd;
+          border-radius: 10px;
+          text-decoration: none;
+          box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+          transition: background-color 0.3s ease;
+        }
+
+        a.btn-home:hover {
+          background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<h1>Поздравляем, у вас просто бобек 🐶🎉🥳</h1>
+<video id="bobik" autoplay muted loop controls>
+    <source src="/bobek.mp4" type="video/mp4" />
+    Ваш браузер не поддерживает видео.
+</video>
+<a href="/" class="btn-home">⟵ Вернуться на главную</a>
+
+<script>
+    window.addEventListener('load', () => {
+      document.getElementById('bobik').classList.add('spin-on-load');
+    });
+</script>
+</body>
+</html>

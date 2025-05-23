@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ошибка</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .error-container {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 8px 24px rgba(0, 123, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+
+        a.btn-home {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        a.btn-home:hover {
+            background-color: #0056b3;
+        }
+
+        video {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 123, 255, 0.2);
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(1800deg); }
+        }
+
+        .rotate-5x {
+            animation: spin 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+<div class="error-container">
+    <h1>Ошибка <span th:text="${status}">404</span></h1>
+    <p th:text="${error}">Страница не найдена или произошла внутренняя ошибка.</p>
+    <a th:href="@{/}" class="btn-home">⟵ На главную</a>
+
+    <video id="errorVideo" autoplay muted loop controls>
+        <source src="/bobek.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+</div>
+
+<script>
+    window.addEventListener('load', () => {
+        const video = document.getElementById("errorVideo");
+        video.classList.add("rotate-5x");
+    });
+</script>
+</body>
+</html>
